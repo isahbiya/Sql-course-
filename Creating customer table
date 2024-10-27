@@ -1,0 +1,17 @@
+CREATE TABLE customer (
+    customer_id INT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50)
+);
+
+INSERT INTO customer (customer_id, first_name, last_name) VALUES
+(1, 'John', 'Doe'),
+(2, 'Jane', 'Smith'),
+(3, 'Emily', 'Johnson'),
+(4, 'Michael', 'Brown'),
+(5, 'Sarah', 'Wilson'),
+(6, 'David', 'Taylor'),
+(7, 'Emma', 'Davis'),
+(8, 'James', 'Garcia'),
+(9, 'Olivia', 'Martinez'),
+(10, 'Daniel', 'Rodriguez');
